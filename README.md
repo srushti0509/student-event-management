@@ -32,3 +32,4 @@ and register for different events.
 - Merge the feature into main.
 - Resolve merge conflicts if they occur.
 Project Status: Registration feature completed.
+Project Status: Homepage and Registration features completed.
