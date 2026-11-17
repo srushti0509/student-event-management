@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Event Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Student Event Management System</h1>
+    <p>Welcome to College Events</p>
+
+    <h2>Available Events</h2>
+
+    <div class="event">
+        <h3>Technical Fest</h3>
+        <p>Date: 25 November 2026</p>
+        <button onclick="registerEvent('Technical Fest')">
+            Register
+        </button>
+    </div>
+
+    <div class="event">
+        <h3>Cultural Fest</h3>
+        <p>Date: 28 November 2026</p>
+        <button onclick="registerEvent('Cultural Fest')">
+            Register
+        </button>
+    </div>
+
+    <h2>Registration Details</h2>
+    <ul id="registrationList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
